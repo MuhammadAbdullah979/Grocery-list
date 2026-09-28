@@ -24,7 +24,7 @@ while running:
         print("Wrong input recieved")
 
 for i in range(len(grocery_list)):
-    print(i, grocery_list[i])
+    print(i+1, grocery_list[i])
 
 # remove items
 while second_running:
@@ -48,7 +48,7 @@ while second_running:
         print("Wrong input recieved")
 
 for i in range(len(grocery_list)):
-    print(i, grocery_list[i])
+    print(i+1, grocery_list[i])
 
 
 # edit an item
@@ -77,9 +77,8 @@ while third_running:
         third_running = False
     else:
         print("Wrong input recieved")
-    inumber = inumber + 1
-for i in range(len(grocery_list)):
-    print(i, grocery_list[i])
 
+for i in range(len(grocery_list)):
+    print(i+1, grocery_list[i])
 
 
